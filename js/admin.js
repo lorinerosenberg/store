@@ -11,7 +11,7 @@ StoreAdmin.start = function(){
 };
 
 
-StoreAdmin.bindMenuBtns = function(){
+StoreAdmin.bindMenuBtns = function(){ 
 	var menuButtons = $(".menu-btn")
 	menuButtons.each(function(){
 		var btn = $(this);
